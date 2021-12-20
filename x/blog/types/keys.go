@@ -17,6 +17,11 @@ const (
 	MemStoreKey = "mem_blog"
 )
 
+const (
+	PostKey      = "Post-value-"
+	PostCountKey = "Post-count-"
+)
+
 func KeyPrefix(p string) []byte {
 	return []byte(p)
 }
